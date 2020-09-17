@@ -16,6 +16,8 @@
 		D825F13D250F585E00D9C27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F13C250F585E00D9C27F /* main.m */; };
 		D825F147250F585E00D9C27F /* DBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F146250F585E00D9C27F /* DBlockTests.m */; };
 		D825F152250F585E00D9C27F /* DBlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F151250F585E00D9C27F /* DBlockUITests.m */; };
+		D825F161250F604100D9C27F /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F160250F604100D9C27F /* SecViewController.m */; };
+		D8806FEE25106A5800D1FE40 /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8806FED25106A5800D1FE40 /* BlockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D825F14D250F585E00D9C27F /* DBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D825F151250F585E00D9C27F /* DBlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBlockUITests.m; sourceTree = "<group>"; };
 		D825F153250F585E00D9C27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D825F15F250F604100D9C27F /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		D825F160250F604100D9C27F /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		D8806FEC25106A5800D1FE40 /* BlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		D8806FED25106A5800D1FE40 /* BlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				D825F12E250F585C00D9C27F /* SceneDelegate.m */,
 				D825F130250F585C00D9C27F /* ViewController.h */,
 				D825F131250F585C00D9C27F /* ViewController.m */,
+				D825F15F250F604100D9C27F /* SecViewController.h */,
+				D825F160250F604100D9C27F /* SecViewController.m */,
+				D8806FEC25106A5800D1FE40 /* BlockView.h */,
+				D8806FED25106A5800D1FE40 /* BlockView.m */,
 				D825F133250F585C00D9C27F /* Main.storyboard */,
 				D825F136250F585D00D9C27F /* Assets.xcassets */,
 				D825F138250F585E00D9C27F /* LaunchScreen.storyboard */,
@@ -267,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8806FEE25106A5800D1FE40 /* BlockView.m in Sources */,
 				D825F132250F585C00D9C27F /* ViewController.m in Sources */,
 				D825F12C250F585C00D9C27F /* AppDelegate.m in Sources */,
 				D825F13D250F585E00D9C27F /* main.m in Sources */,
+				D825F161250F604100D9C27F /* SecViewController.m in Sources */,
 				D825F12F250F585C00D9C27F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
